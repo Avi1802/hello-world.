@@ -1,0 +1,10 @@
+mkdir hello-world
+cd hello-world
+echo &quot;# hello-world&quot; &gt;&gt; README.md
+git init
+git add README.md
+git commit -m &quot;first commit&quot;
+git branch -M main
+git remote add origin https://github.com/elevy-leumi/hello-
+world.git
+git push -u origin main
